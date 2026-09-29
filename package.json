@@ -78,10 +78,8 @@
     "release:gate": "npm run check && npm run test:integration && npm run test:security && npm run eval:recall && npm run bench:recall && npm run test:package && npm run pack:dry"
   },
   "peerDependencies": {
-    "@earendil-works/pi-coding-agent": "0.81.1"
-  },
-  "dependencies": {
-    "typebox": "1.1.38"
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
   },
   "devDependencies": {
     "@earendil-works/pi-coding-agent": "0.81.1",
@@ -91,6 +89,7 @@
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.7.4",
     "tsx": "^4.21.0",
+    "typebox": "1.1.38",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.52.0",
     "vitest": "^4.0.16"
